@@ -308,7 +308,7 @@ ul a {
 }
 
 /* ++++++++++++++++++++++++++++++ */
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     .hero-section {
         height: 300px;
         background-size: cover;
@@ -316,7 +316,7 @@ ul a {
     }
 
     .hero-msg {
-        font-size: 0.85rem;
+        font-size: 0.75rem;
         width: 90%;
     }
 }
@@ -336,11 +336,6 @@ ul a {
         width: 95%;
     }
 }
-
-.hero-section p {
-    font-size: x-small;
-}
-
 
 /* =================================== */
 @media screen and (max-width: 768px) {
@@ -393,11 +388,13 @@ ul a {
 .nav-signin {
     font-size: smaller;
     display: flex;
+    gap: 20px;
 }
+
 
 .nav-return {
     display: none;
-}`
+}
 
 @media screen and (max-width: 768px) {
     footer .foot2 {
