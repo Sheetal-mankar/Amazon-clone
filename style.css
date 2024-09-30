@@ -304,8 +304,9 @@ ul a {
     padding-top: 5px;
 }
 
-/* ++++++++++++++++++++++++++++++ */
-@media only screen and (max-width: 600px) {
+
+
+@media only screen and (max-width: 780px) {
     .hero-section {
         height: 300px;
         background-size: cover;
@@ -316,10 +317,10 @@ ul a {
         font-size: 0.75rem;
         width: 90%;
     }
-}
 
-.hero-section p {
-    font-size: small;
+    .hero-section p {
+        font-size: small;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -332,6 +333,12 @@ ul a {
     .hero-msg {
         width: 95%;
     }
+
+
+    .hero-section p {
+        font-size: x-small;
+    }
+
 }
 
 /* =================================== */
@@ -354,6 +361,24 @@ ul a {
     .search-select,
     .search-icon {
         width: 40px;
+    }
+
+    .nav-signin {
+        font-size: smaller;
+        display: flex;
+        gap: 20px;
+    }
+
+
+    .nav-return {
+        display: none;
+    }
+
+    .shop-section {
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
     }
 }
 
@@ -380,17 +405,18 @@ ul a {
         width: 100%;
         margin-top: 20px;
     }
-}
-
-.nav-signin {
-    font-size: smaller;
-    display: flex;
-    gap: 20px;
-}
 
 
-.nav-return {
-    display: none;
+    .nav-signin {
+        font-size: smaller;
+        display: flex;
+        gap: 20px;
+    }
+
+
+    .nav-return {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 768px) {
